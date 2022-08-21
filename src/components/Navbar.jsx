@@ -12,7 +12,7 @@ export default function Navbar() {
           <li><a href="/project"><AiOutlineProject />Projects</a></li>
           <li><a href="/project"><AiOutlineBook />Blogs</a></li>
 
-          <li><button className='chat-box-btn'><AiOutlineMessage /> Let's chat</button></li>
+          <li><a href="mailto:drasticoder@gmail.com?subject=Just here to say HII! &body=I stumbled here from your website, :P" target="_blank" rel="noreferrer"><button className='chat-box-btn'><AiOutlineMessage /> Let's chat</button></a></li>
              </ul>
         </nav>
     </div>

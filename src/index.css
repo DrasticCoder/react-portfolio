@@ -125,6 +125,35 @@ code {
   width: 45vw;
 }
 
+.socials{
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin: 5vh 2.8vw 0vh 2.8vw;
+}
+
+.socials a{
+  color: yellowgreen;
+}
+
+.socials a:hover{
+  color: white;
+}
+
+.socials:hover{
+  animation: rotate-icon 0.8s infinite;
+  box-shadow: 5px 10px 18px rgb(156, 184, 100);
+}
+
+@keyframes rotate-icon {
+  from{
+     transform:rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  } 
+}
+
 /* Home end */
 
 /* ------------------------------------------------------------ */
