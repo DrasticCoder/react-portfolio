@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Words from './Words';
 import { FiGithub, FiTwitter } from 'react-icons/fi';
 import { TbBrandTelegram } from 'react-icons/tb';
@@ -22,8 +22,8 @@ export default function Home() {
         <div className='socials'><a href="https://t.me/drasticcoder" target="_blank" rel='noreferrer'> <TbBrandTelegram size={30} /> </a></div>
         <div className='socials'><a href="https://twitter.com/drasticcoder" target="_blank" rel="noreferrer"><FiTwitter size={30} /></a>  </div>
         <div className='socials'><a href="mailto:drasticoder@gmail.com?subject=Just here to say HII! &body=I stumbled here from your website, :P" target="_blank" rel="noreferrer"><AiOutlineMail size={30} /> </a> </div>
-        <div className='socials'><a href="https://www.chess.com/member/drasticcoder" target="_blank"> <SiLichess size={30} /> </a></div>
-        <div className='socials'><a href="" target="_blank" re="noreferrer"><BsDownload size={30} /> </a> </div>
+        <div className='socials'><a href="https://www.chess.com/member/drasticcoder" target="_blank" rel='noreferrer'> <SiLichess size={30} /> </a></div>
+        <div className='socials'><a href="https://google.com" target="_blank" re="noreferrer"><BsDownload size={30} /> </a> </div>
 
     </div>
   </div>
