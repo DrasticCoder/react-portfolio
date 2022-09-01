@@ -12,7 +12,7 @@ export default function Home() {
     <div id='home'>
           <div className="hero-section">
         <h1 className='heading-text'>Hi! I am <Words />
-              <br /> Deep Bansode
+              <br /><span className='neonText'>Deep Bansode</span>
               </h1>
               <h2 className="secondary-heading"> Full stack web developer based in Mumbai</h2>
             </div>
@@ -23,8 +23,7 @@ export default function Home() {
         <div className='socials'><a href="https://twitter.com/drasticcoder" target="_blank" rel="noreferrer"><FiTwitter size={30} /></a>  </div>
         <div className='socials'><a href="mailto:drasticoder@gmail.com?subject=Just here to say HII! &body=I stumbled here from your website, :P" target="_blank" rel="noreferrer"><AiOutlineMail size={30} /> </a> </div>
         <div className='socials'><a href="https://www.chess.com/member/drasticcoder" target="_blank" rel='noreferrer'> <SiLichess size={30} /> </a></div>
-        <div className='socials'><a href="https://google.com" target="_blank" re="noreferrer"><BsDownload size={30} /> </a> </div>
-
+        <div className='socials'><a href="https://www.google.com"><BsDownload size={30} /> </a> </div>
     </div>
   </div>
   )
