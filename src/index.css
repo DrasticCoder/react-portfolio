@@ -36,6 +36,12 @@ code {
   color: #ffffff;
 }
 
+#logo img{
+  width: 3vw;
+  height: auto;
+  /* margin: 0 1vw; */
+}
+
 #logo h1{
   display: inline;
 }
