@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div id="about" className='page'>
    
-      <h1 className='neonText'>About {"{ME}"}</h1>
+      <h1 className='neonText'>About <span className='drasticcoder'>{"{ME}"}</span></h1>
       <ul>
         <li>I'm <code>Deep Bansode</code>, A Full-Stack Web Developer based in <code>Mumbai, India</code>.</li>
         <li>An amalgamation of my <code>interests</code> and <code> technology</code> has inclined me towards <code>Web Development</code> specifically, creating strategic and meaningful experiences.

@@ -12,7 +12,7 @@ export default function Home() {
     <div id='home'>
           <div className="hero-section">
         <h1 className='heading-text'>Hi! I am <Words />
-              <br /><span className='neonText'>Deep Bansode</span>
+              <br /><span className='neonText drasticcoder'>{"{ Deep Bansode }"}</span>
               </h1>
               <h2 className="secondary-heading"> Full stack web developer based in Mumbai</h2>
             </div>
